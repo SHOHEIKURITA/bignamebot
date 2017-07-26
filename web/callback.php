@@ -131,13 +131,15 @@ if ($text == 'はい') {
   ];
 } else {
   $response_format_text = [
-    "type" => "template",
-    "altText" => "その他",
 
+    "text" => "やっちゃえNISSAN"
+    
+    /*
+    "type" => "template",
+    "altText" => "こんにちわ 何かご用ですか？（はい／いいえ）",
     "template" => [
-        //"type" => "confirm",
-        "text" => "やっちゃえNISSAN"
-        /*
+        "type" => "confirm",
+        "text" => "こんにちわ 何かご用ですか？",
         "actions" => [
             [
               "type" => "message",
@@ -150,8 +152,8 @@ if ($text == 'はい') {
               "text" => "いいえ"
             ]
         ]
-        */
     ]
+    */
   ];
 }
 
