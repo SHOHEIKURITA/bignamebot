@@ -134,7 +134,7 @@ if ($text == 'はい') {
     "type" => "template",
     "altText" => "その他",
     "template" => [
-        "type" => "confirm",
+        //"type" => "confirm",
         "text" => "やっちゃえNISSAN",
         /*
         "actions" => [
