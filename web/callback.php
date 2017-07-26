@@ -132,8 +132,27 @@ if ($text == 'はい') {
 } else {
   $response_format_text = [
 
-    "text" => "やっちゃえNISSAN"
-    
+    "type" => "template",
+    "altText" => "その他",
+    "template" => [
+        "type" => "message",
+        "text" => "やっちゃえNISSAN"
+        /*
+        "actions" => [
+            [
+              "type" => "message",
+              "label" => "はい",
+              "text" => "はい"
+            ],
+            [
+              "type" => "message",
+              "label" => "いいえ",
+              "text" => "いいえ"
+            ]
+        ]
+        */
+    ]
+
     /*
     "type" => "template",
     "altText" => "こんにちわ 何かご用ですか？（はい／いいえ）",
