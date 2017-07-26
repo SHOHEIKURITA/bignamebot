@@ -133,6 +133,7 @@ if ($text == 'はい') {
   $response_format_text = [
 
     "type" => "message_type",
+    "altText" => "その他",
     "text" => "やっちゃえNISSAN"
 
     /*
