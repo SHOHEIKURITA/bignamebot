@@ -21,9 +21,7 @@ if($type != "text"){
 if ($text == 'はい') {
   $response_format_text = [
     "type" => "template",
-    "altText" => "20代で苦労した者だけが、30代で夢の世界を見ることが出来る。"
-    /*
-    "altText" => "はい",
+    "altText" => "こちらの〇〇はいかがですか？",
     "template" => [
       "type" => "buttons",
       "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img1.jpg",
@@ -52,7 +50,6 @@ if ($text == 'はい') {
           ]
       ]
     ]
-    */
   ];
 } else if ($text == 'いいえ') {
   exit;
@@ -135,10 +132,11 @@ if ($text == 'はい') {
 } else {
   $response_format_text = [
     "type" => "template",
-    "altText" => "こんにちわ 何かご用ですか？（はい／いいえ）",
+    "altText" => "その他",
     "template" => [
         "type" => "confirm",
-        "text" => "こんにちわ 何かご用ですか？",
+        "text" => "やっちゃえNISSAN",
+        /*
         "actions" => [
             [
               "type" => "message",
@@ -151,6 +149,7 @@ if ($text == 'はい') {
               "text" => "いいえ"
             ]
         ]
+        */
     ]
   ];
 }
