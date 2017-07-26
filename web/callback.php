@@ -17,7 +17,7 @@ if($message_type != "text") exit;
 //返信メッセージ
 //$return_message_text = "「" . $message_text . "」じゃねーよｗｗｗ";
 
-if ($text == '名言') {$return_message_text = "てめぇの人生なんだから。てめぇで走れ。";}
+if ($message_text == '名言') {$return_message_text = "てめぇの人生なんだから。てめぇで走れ。";}
 else {$return_message_text = "やっちゃえNISSAN";}
  
 //返信実行
