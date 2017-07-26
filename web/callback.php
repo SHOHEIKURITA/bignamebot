@@ -133,9 +133,10 @@ if ($text == 'はい') {
   $response_format_text = [
     "type" => "template",
     "altText" => "その他",
+
     "template" => [
         //"type" => "confirm",
-        "text" => "やっちゃえNISSAN",
+        "text" => "やっちゃえNISSAN"
         /*
         "actions" => [
             [
