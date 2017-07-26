@@ -1,5 +1,5 @@
 <?php
-$accessToken = getenv('LINE_CHANNEL_ACCESS_TOKEN');
+$accessToken = getenv('vavq1PUQ8ZrGOwyF/qClD0dLwg4Swo3XRHRa1fbgE4quObFLO+GxuONh1H9zyK8NeczOqnshvQJIjpH1diPQm4dRl1VsSbhw4Cev1RU9MWLxA0cRTYvDBQtPzxf7aP848C1i6mFt5sZbmHadBgNGMgdB04t89/1O/w1cDnyilFU=');
 
 
 //ユーザーからのメッセージ取得
