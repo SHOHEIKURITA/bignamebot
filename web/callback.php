@@ -18,7 +18,7 @@ if($type != "text"){
 }
 
 //返信データ作成
-if ($text == 'はい') {
+if ($text == 'やざわ') {
   $response_format_text = [
     "type" => "template",
     "altText" => "こちらの〇〇はいかがですか？",
