@@ -132,26 +132,8 @@ if ($text == 'はい') {
 } else {
   $response_format_text = [
 
-    "type" => "template",
-    "altText" => "その他",
-    "template" => [
-        "type" => "message",
-        "text" => "やっちゃえNISSAN"
-        /*
-        "actions" => [
-            [
-              "type" => "message",
-              "label" => "はい",
-              "text" => "はい"
-            ],
-            [
-              "type" => "message",
-              "label" => "いいえ",
-              "text" => "いいえ"
-            ]
-        ]
-        */
-    ]
+    "type" => "message_type",
+    "text" => "やっちゃえNISSAN"
 
     /*
     "type" => "template",
