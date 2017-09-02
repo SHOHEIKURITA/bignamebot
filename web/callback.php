@@ -22,10 +22,10 @@ if ($message_text == '名言') {$return_message_text = "商品を信じる、そ
 else {$return_message_text = "退学";}
 */
 
-int r = rand(1, 2);
+$r = mt_rand(1, 2);
 if ($message_text == '名言') {
 
-    if (r == 1) {$return_message_text = "商品を信じる、それを使っている人、愛している人を信じる、その気持ちに敬意を表する、共感するというのがないと今後はますますダメだと思う。 by小霜";}
+    if ($r == 1) {$return_message_text = "商品を信じる、それを使っている人、愛している人を信じる、その気持ちに敬意を表する、共感するというのがないと今後はますますダメだと思う。 by小霜";}
     else
     {$return_message_text = "砂山のトンネルをストラテジー側と表現側から掘ってみて、真ん中でがっちり手を繋げた時に、良いクリエイティブが生まれるということ。 by米村";}
 
